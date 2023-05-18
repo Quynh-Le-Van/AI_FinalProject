@@ -1,0 +1,125 @@
+{"intents" : [
+    {
+        "tag": "greeting",
+        "patterns": ["Can you help me with something?","Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+        "responses": ["Hello! How can I help you today?","Is there anything else I can help you with?", "Good to see you again!", "Hi there, how can I help?","Welcome back! What would you like to chat about?"],
+        "context_set": ""
+    },
+
+    {
+        "tag" : "purpose",
+        "patterns" : ["what is your purpose ?","purpose","what you can help me ?" ,"Tell me about your job" ,"what you do best" ,"i'm looking for someone to help me about muscles" ],
+        "responses" :["I'm here to help you about fitness","Anything you want to know about fitness and healthcare","I desire to keep you in shape" ,"I'm going to take care of you health"],
+        "context_set" : ""
+    },
+
+    {
+        "tag": "goodbye",
+        "patterns": [ "Goodbye! Take care! ","Goodbye! Have a great day! :))","See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","Its too late"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+        "context_set": ""
+    },
+
+    {
+        "tag" : "exercise",
+        "patterns" : ["What type of training do I need to do to lose or gain weight?","What type of training do I need to get stronger?","What type of training do I need to do to increase muscle mass?","What are some good exercises for beginners?", "Exercise","What are some good exercises for endurance?","What are some good exercises for strength?","how i can start for gym","gain weight","lose weight"],
+        "responses" : ["Here are some exercises that you can do at the gym: Squats Deadlifts Bench press Pull-ups Push-ups Lunges Leg press It's important to note that you should always consult with a personal trainer before starting any new exercise routine. They can help you create a workout plan that is tailored to your specific needs and goals1. I hope that helps! Let me know if you have any other questions.", "Fitness exercises can be divided into four categories: endurance, strength, balance, and flexibility1. Endurance activities increase breathing and heart rate, while strength exercises make muscles stronger1. Balance exercises can help prevent falls and make it easier to walk on uneven surfaces1. Flexibility exercises stretch muscles and help the body stay limber1.","If you are looking for beginner-friendly gym workouts, there are many resources available online. For example, you can check out this beginner full body gym workout on YouTube 2 or this guide to gym workouts for beginners on Nerd Fitness 3.","There are many good exercises for strength training. Some examples include rows, pull-ups, and lat pull-downs for pulling exercises1. For pushing exercises, you can try bench presses, push-ups, and overhead presses1. Squats and lunges are great for working your legs1. Deadlifts are also a great exercise for building strength in your legs and back1","There are many exercises that can help you improve your fitness. Some examples include running, cycling, swimming, and jumping rope. Strength training exercises like squats, lunges, and push-ups can also help improve your fitness.","If you are looking for more ideas for exercises to improve your fitness, you can check out this article on the 10 best exercises for overall fitness on Healthline "],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "upper",
+        "patterns" : ["What are exercises best for upper body","I want to improve my upper","How to improve upper body"," a attractive upper body "],
+        "responses" :["There are many exercises that can help you improve your upper body strength. Some examples include push-ups, pull-ups, and bench presses. Rows and lat pull-downs are also great exercises for your back and arms."],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "chest",
+        "patterns" : ["What are the best chest exercises?","chest","What are exercises best for chest part","How to improve my chest" ,"I want to improve my chest","i want my chest bigger","What are some good exercises for chest","how to get bigger chest ?","what should i do for my chest","can you help me about chest","What are some other exercises for the chest?"],
+        "responses" : ["Here are some chest exercises you can try: Barbell guillotine bench press Bench press with suspended weights Reverse band bench press Bending your elbows down at a 45-degree angle, slowly lower the weight to your chest. Keep the bar approximately in line with your nipples. Pause for a moment, then press the weight back up to the starting position. This is called the barbell bench press. Incline dumbbell bench press Decline push-up Cable fly Dumbbell pullover I hope that helps! Let me know if you have any other questions.","There are many exercises that can help you improve your chest muscles. Some examples include push-ups, bench presses, and chest flyes. If you are looking for more ideas for exercises to improve your chest muscles, you can check out this article on the 10 best chest exercises on Healthline .", "Barbell Bench, Press Dumbbell, Bench Press ,Incline Bench ,Press Decline ,Press Machine ,Chest Press, Push-Up, Dip, Chest Fly ,Dumbbell Pull-Over, Machine Fly"],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "back",
+        "patterns" : ["back","can you help me about back","What are exercises best for back part","How to improve my back" ,"I want to improve my back","i want my back bigger","What are some good exercises for back","how to get back","What are the best back exercises?"],
+        "responses" : ["There are many exercises that can help you build a strong back. Some of the best exercises for back include: Deadlifts Pull-ups Bent-over rows Seated cable rows Lat pulldowns These exercises target different muscles in your back and can help you build strength and size. Its important to include a variety of exercises in your workout routine to ensure that you are working all of the muscles in your back. I hope this helps! Let me know if you have any other questions."],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "shoulder",
+        "patterns" : ["What are the best shoulder exercises?","shoulder","can you help me about shoulder","What are exercises best for shoulder part","How to improve my shoulder" ,"I want to improve my shoulder","i want my shoulder bigger","What are some good exercises for shoulder","how to get bigger shoulder ?"," girl and shoulder"],
+        "responses" : ["There are many exercises that can help you strengthen your shoulders. Some of the most effective ones include: Seated Dumbbell Press: This exercise targets your shoulders and triceps. Sit on a bench with your feet flat on the floor and hold a dumbbell in each hand at shoulder height. Press the weights up overhead until your arms are straight, then lower them back down to shoulder height. Lateral Raises: This exercise targets your middle deltoids. Stand with your feet shoulder-width apart and hold a dumbbell in each hand at your sides. Raise your arms out to the sides until they're parallel to the floor, then lower them back down. Front Raises: This exercise targets your front deltoids. Stand with your feet shoulder-width apart and hold a dumbbell in each hand at your thighs. Raise the weights up in front of you until they're at shoulder height, then lower them back down. Rear Deltoid Flyes: This exercise targets your rear deltoids. Lie face down on an incline bench with a dumbbell in each hand. Raise the weights out to the sides until they're parallel to the floor, then lower them back down. Upright Rows: This exercise targets your shoulders and upper back. Stand with your feet shoulder-width apart and hold a barbell with an overhand grip in front of you. Pull the bar up to your chin, keeping it close to your body, then lower it back down. Remember to start with light weights and gradually increase as you get stronger. Also, be sure to use proper form to avoid injury."],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "bicept",
+        "patterns" : ["What are the best bicept exercises?","bicept","can you help me about bicept","What are exercises best for bicept part","How to improve my bicept" ,"I want to improve my bicept","i want my  bicept bigger","What are some good exercises for  bicept","how to get bigger  bicept ?"],
+        "responses" : ["There are many exercises that can help you build bigger biceps. Some of the best ones include: Barbell Curls: This exercise targets your biceps and forearms. Stand with your feet shoulder-width apart and hold a barbell with an underhand grip. Curl the bar up towards your chest, then lower it back down. Dumbbell Curls: This exercise targets your biceps. Stand with your feet shoulder-width apart and hold a dumbbell in each hand at your sides. Curl the weights up towards your shoulders, then lower them back down. Hammer Curls: This exercise targets your biceps and forearms. Stand with your feet shoulder-width apart and hold a dumbbell in each hand at your sides with your palms facing inwards. Curl the weights up towards your shoulders, then lower them back down. Preacher Curls: This exercise targets your biceps. Sit on a preacher bench with your arms resting on the pad and hold a barbell with an underhand grip. Curl the bar up towards your chest, then lower it back down. Concentration Curls: This exercise targets your biceps. Sit on a bench with your legs spread apart and hold a dumbbell in one hand between your legs. Curl the weight up towards your shoulder, then lower it back down. Remember to start with light weights and gradually increase as you get stronger. Also, be sure to use proper form to avoid injury."],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "triceps",
+        "patterns" : ["What are the best triceps exercises?","triceps","can you help me about triceps","What are exercises best for triceps part","How to improve my triceps" ,"I want to improve my triceps","i want my triceps bigger","What are some good exercises for triceps","how to get bigger triceps ?"],
+        "responses" : ["Sure! Here are some exercises for triceps that you can try: Close-grip bench press Dips Overhead triceps extension Triceps pushdown Would you like me to provide more details on any of these exercises?"],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "abdominal muscles",
+        "patterns" : ["can you help me about abdominal muscles","How do I get a six-pack?","What are exercises best for abdominal muscles part","How to improve my abdominal muscles" ,"I want to improve my abdominal muscles","i want my abdominal muscles bigger","What are some good exercises for abdominal muscles","how to get bigger abdominal muscles ?"],
+        "responses" : ["I can help you with that. Here are some of the best exercises for abs according to 1: Leg raises Cable crunches Pallof press Cable crunches Decline bench sit-ups Squats and deadlifts Russian twists Ab wheel rollouts You can find more details about how to perform these exercises and their benefits on the current web page context 1."],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "leg",
+        "patterns" : ["What are the best leg exercises?","leg","can you help me about leg ","What are exercises best for leg part","How to improve my leg" ,"I want to improve my leg","i want my leg bigger","What are some good exercises for leg","how to get bigger leg ?"],
+        "responses" : ["Here are some leg exercises that you can try: Barbell back squat, Leg press ,Leg extensions, Lunges, Deadlifts, Standing Calf Raise, Prowler Push, Assault Bike ,Kang Squat ,Kettlebell Swing, Cyclist Squat ,Belt Squat"],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "food",
+        "patterns" : ["can you help me about food", "What should I eat before my workout?","What should I eat after my workout?" ,"food in gym","food for exercise","What are some healthy food for gym?","what type of food get me bigger muscle?","good food for workout" ,"How does good food effect on gym result"],
+        "responses" : ["Eating the right food is important for gym-goers. It's important to consume some protein prior to stepping into the gym1. Here are some foods that can help you build muscle and lose fat: Eggs Chicken breast Greek yogurt Tuna Lean beef Shrimp Soybeans Quinoa It's also important to stay hydrated before, during, and after your workout. Drinking water is the best way to stay hydrated2. I hope that helps! Let me know if you have any other questions.","There are many foods that can help you fuel your workouts and recover afterward. Some of the best foods for gym-goers include: Bananas: They are a great source of carbohydrates and potassium, which can help you maintain your energy levels during your workout. Oats: They are a great source of complex carbohydrates and fiber, which can help you maintain your energy levels throughout the day. Greek yogurt: It is a great source of protein and calcium, which can help you build muscle and strengthen your bones. Sweet potatoes: They are a great source of complex carbohydrates and fiber, which can help you maintain your energy levels throughout the day. Chicken breast: It is a great source of protein, which can help you build muscle and recover after your workout. Brown rice: It is a great source of complex carbohydrates and fiber, which can help you maintain your energy levels throughout the day. Almonds: They are a great source of healthy fats and protein, which can help you maintain your energy levels throughout the day. These are just a few examples. There are many other foods that can help you fuel your workouts and recover afterward. The key is to eat a balanced diet that includes plenty of fruits, vegetables, whole grains, lean proteins, and healthy fats. Also, make sure to stay hydrated by drinking plenty of water before, during, and after your workout."],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "sleep",
+        "patterns" : ["Whats the best way to help sore muscles?","How much sleep do I need?","What are the benefits of sleeping after gym?" ,"What are the benefits of sleeping before gym?","sleep for gym","sleep for exercise","sleep for workout"],
+        "responses" : ["Sleep is very important for gym-goers. It serves many vital functions such as growth and mental alertness. Sleep provides these effects directly. Without adequate sleep, time in the gym could be, to a large degree, wasted. The repairing of muscle and other tissues, and replacement of aging or dead cells are also important functions of sleep1. If you got seven to eight hours of sleep the night before, you're good to hit the gym. Seven to nine hours of sleep is what most adults need2. However, it's important to note that a lack of sleep increases irritability and risk for anxiety and depression. Physically, a lack of sleep increases the risk for many medical concerns, including type 2 diabetes, high blood pressure, kidney disease, and stroke3. I hope that helps! Let me know if you have any other questions.","It is generally recommended to get 7-9 hours of sleep per night1. If you are working out regularly, it is important to get enough sleep to help your body recover and repair itself after exercise2. You can sleep after gym or before gym depending on your schedule and preference. However, it is recommended to avoid exercising too close to bedtime as it can interfere with sleep3. I hope this helps! Let me know if you have any other questions.","Sleeping after a workout is important for muscle recovery and growth. It helps your body repair and rebuild muscle tissue that gets broken down during exercise. It also helps to reduce inflammation and soreness in your muscles. You should aim for at least 7 hours of sleep per night to help your body recover from your workouts1. I hope that helps! Let me know if you have any other questions."],
+        "context_set" :""
+    },
+
+    {
+        "tag": "age",
+        "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?" , "older than me ?"],
+        "responses": ["I am 18 years old!", "18 years young!" ],
+        "context_set": ""
+    },
+    
+    {
+        "tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["You can call me Quynh.", "I'm Quynh!", "I'm Le Van Manh Quynh."],
+        "context_set": ""
+    },
+
+    {
+        "tag": "time",
+        "patterns": ["What time of day is best to work out?","How often should I exercise?","what is best time for gym", "whats preiod of time in a day should I go to gym ?", "good time for gym","how i should schedule for gym"," How long do I need to work out for?"],
+        "responses": ["According to experts, the best times to attend the gym are: Just after the gym opens, and before the 7am crowd arrives to exercise before work. After the typical working day has started. After lunch breaks have ended and before the work day finishes. After the crowds attending straight from work have finished their workouts for the day1. However, it's important to note that the best time to exercise is whenever you can. We don't all have schedules that allow for a 90-minute workout at 6 a.m. or an after-work gym session2. I hope that helps! Let me know if you have any other questions.","The best time to go to the gym depends on your personal preference and schedule. Most gyms are busiest in the mid to late morning (right before people head off to work), around 8 to 10 am, and in the evening (right after work) from around 4 to 7 pm2. If you want to avoid crowds, you can try going during the work day or late in the evening2. I hope this helps! Let me know if you have any other questions."],
+        "context_set": ""
+    }
+
+    ]
+
+
+}
+

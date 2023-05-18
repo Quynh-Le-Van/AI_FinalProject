@@ -1,0 +1,123 @@
+{"intents" : [
+    {
+        "tag": "greeting",
+        "patterns": ["how are you today ?"],
+        "responses": [""],
+        "context_set": ""
+    },
+
+    {
+        "tag" : "purpose",
+        "patterns" : [" Im looking for someone to help me improve my musle ,can you help me ?"],
+        "responses" :[""],
+        "context_set" : ""
+    },
+
+    {
+        "tag": "goodbye",
+        "patterns": ["Its time to say goodbye"],
+        "responses": [""],
+        "context_set": ""
+    },
+
+    {
+        "tag" : "exercise",
+        "patterns" : ["are there some good exercise to gain weight ?"],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "upper",
+        "patterns" : [" I want to make my upper body more attractive ,help me please"],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "chest",
+        "patterns" : [" are there some good exercises for chest part "],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "back",
+        "patterns" : [" how to get a perfect back for real man "],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "shoulder",
+        "patterns" : [" i want to cover my girl by my huge shoulder "],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "bicept",
+        "patterns" : [" a bigger bicept "],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "triceps",
+        "patterns" : ["a bigger bicept "],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "abdominal muscles",
+        "patterns" : ["how to get dating with girl by abdominal "],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "leg",
+        "patterns" : ["i want a bigger and more beatifull leg"],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "food",
+        "patterns" : [" The important of food in gym "],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag" : "sleep",
+        "patterns" : ["how a good sleeping help me to recover body"],
+        "responses" : [""],
+        "context_set" :""
+    },
+
+    {
+        "tag": "age",
+        "patterns": [" tell me your age "],
+        "responses": ["" ],
+        "context_set": ""
+    },
+    
+    {
+        "tag": "name",
+        "patterns": [" give me your name"],
+        "responses": [""],
+        "context_set": ""
+    },
+
+    {
+        "tag": "time",
+        "patterns": ["Tell me about time and schedule in gym","gold time for gym"],
+        "responses": [""],
+        "context_set": ""
+    }
+
+    ]
+    
+}
+
